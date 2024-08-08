@@ -1,0 +1,88 @@
+.calculator-container{
+    height: 400px;
+    width: 300px;
+    border-radius: 15px;
+    background-color: #000000;
+    padding: 10px;
+}
+
+.buttons-container {
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.button-row{
+    display: flex;
+    flex-direction: row;
+    height: 80%;
+    gap: 10px;
+}
+
+.button-row button{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    border: solid 1px #000000;
+    font-size: 24px;
+    transition: 0.1s ease-in;
+    background-color: #444444;
+    color: #FFFFFF;
+}
+
+.button-row button:hover{
+    background-color: #cbcbcb;
+}
+
+
+.button-row .zero-btn{
+    flex-basis: 52%;
+    border-radius: 30px;
+    text-align: left;
+    padding: 15px;
+}
+
+.button-row .decimal-btn{
+    flex-basis: 25%;
+}
+
+.button-row .equal-sign-btn{
+    flex-basis: 25%;
+}
+
+.button-row .last-button{
+    background-color: #ff9900;
+    transition: 0.1s ease-in;
+}
+.button-row .last-button:hover{
+    background-color: #a26100;
+}
+
+.button-row .top {
+    background-color: #dddddd;
+    color: #000000;
+}
+.button-row .top:hover{
+    background-color: #949494;
+    color: #000000; 
+}
+
+.input-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #000000;
+    padding: 0 2% 0 2%;
+    border-radius: 15px 15px 0px 0px;
+    height: 20%
+}
+
+.input-container h1{
+    margin: 0;
+    color: #FFFFFF;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
